@@ -2,6 +2,21 @@ name: erasmo.cummerata
 description: User fork
 version: 1
 author: annita.shields@hotmail.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: annita.shields@hotmail.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-06 13:17:23'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Jack_Hammes:
+    name: Jack_Hammes
+    description: Really solid info
+    createdAt: '2022-01-06 13:17:23'
+    author: annita.shields@hotmail.com
